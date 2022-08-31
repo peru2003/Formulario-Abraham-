@@ -1,0 +1,36 @@
+*{
+
+list-style: none;
+box-sizing: border-box;
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: 0ch;
+    text-transform: capitalize;
+}
+title{
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+span{
+    margin-top: 10px;
+    
+    padding-left: 0;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: aquamarine;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
